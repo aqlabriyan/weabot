@@ -22,7 +22,7 @@ module.exports = msgHndlr = async (BarBar, mek) => {
     try {
         const { from, sender, pushname, body, quoted, timestamp, type, isGroup, isMedia, id, fromMe, getMedia, mentions } = mek
         const help = new ind(prefix)
-        const anteicodes = new anteiku("Set apikey on here") // signup to antei.codes if you want to get token/apikey
+        const anteicodes = new anteiku("kIwM2T27gM-Y1nUPGo9z60a_TUboF1wO7LXSKr6nOO8") // signup to antei.codes if you want to get token/apikey
         const cmd = body && body.startsWith(prefix) ? body.slice(1).trim().split(/ +/).shift().toLowerCase() : ""
         const isCmd = body && body.startsWith(prefix) ? true : false
         const args = body ? body.trim().split(/ +/).slice(1) : []
